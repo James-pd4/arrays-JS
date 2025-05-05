@@ -7,5 +7,5 @@ function ordenarLivrosPorPreco() {
 
     console.log(livrosOrdenados)
 
-    exibirOsLivrosNatela(livrosOrdenados)
+    exibirOsLivrosNaTela(livrosOrdenados)
 }
