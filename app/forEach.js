@@ -1,13 +1,7 @@
 const elementoParaInserirLivros = document.getElementById('livros')
 
-<<<<<<< HEAD
 function exibirOsLivrosNaTela(listaDeLivros) {
     elementoParaInserirLivros.innerHTML = ''
-=======
-function exibirOsLivrosNatela(listaDeLivros){
-    elementoParaInserirLivros.innerHTML = ''
-
->>>>>>> metodo_filter
     listaDeLivros.forEach(livro => {
         // let disponibilidade = verificarDisponibilidadeDoLivro(livro)
         let disponibilidade = livro.quantidade > 0 ? 'livro__imagens' : 'livro__imagens indisponivel'
